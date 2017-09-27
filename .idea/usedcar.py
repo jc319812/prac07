@@ -1,14 +1,14 @@
-from prac07.car import car
+from prac07.car import Car
 
 
 def main():
-	bus = carar(180)
+	bus = Car(180)
 	bus.drive(30)
 	print("fuel =", bus.fuel)
 	print("odo =", bus.odometer)
 	print(bus)
 
-	limo = carar(100, "limo")
+	limo = Car(100, "limo")
 	limo.add_fuel(20)
 	print("fuel = ", limo.fuel)
 	limo.drive(115)
